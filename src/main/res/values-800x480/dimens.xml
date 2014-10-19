@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="welcome_first_line_height_480">50px</dimen>
+    <dimen name="welcome_first_line_marginTop_480">110px</dimen>
+    <dimen name="welcome_first_line_marginLeft_480">60px</dimen>
+    <dimen name="welcome_first_line_textSize_480">46px</dimen>
+    <dimen name="welcome_second_line_height_480">50px</dimen>
+    <dimen name="welcome_second_line_marginTop_480">70px</dimen>
+    <dimen name="welcome_second_line_marginLeft_480">100px</dimen>
+    <dimen name="welcome_second_line_textSize_480">46px</dimen>
+    <dimen name="welcome_third_line_height_480">50px</dimen>
+    <dimen name="welcome_third_line_marginTop_480">60px</dimen>
+    <dimen name="welcome_third_line_marginLeft_480">140px</dimen>
+    <dimen name="welcome_third_line_textSize_480">46px</dimen>
+
+    <dimen name="cipher_first_text_height_480">70px</dimen>
+    <dimen name="cipher_first_text_marginTop_480">20px</dimen>
+    <dimen name="cipher_first_textSize_480">60px</dimen>
+    <dimen name="cipher_first_button_width_480">70px</dimen>
+    <dimen name="cipher_first_button_height_480">70px</dimen>
+    <dimen name="cipher_first_button_marginTop_480">120px</dimen>
+    <dimen name="cipher_first_button_marginLeft_480">40px</dimen>
+    <dimen name="cipher_second_button_width_480">70px</dimen>
+    <dimen name="cipher_second_button_height_480">70px</dimen>
+    <dimen name="cipher_second_button_marginTop_480">120px</dimen>
+    <dimen name="cipher_second_button_marginLeft_480">40px</dimen>
+    <dimen name="cipher_third_button_width_480">70px</dimen>
+    <dimen name="cipher_third_button_height_480">70px</dimen>
+    <dimen name="cipher_third_button_marginTop_480">120px</dimen>
+    <dimen name="cipher_third_button_marginLeft_480">40px</dimen>
+    <dimen name="cipher_fourth_button_width_480">70px</dimen>
+    <dimen name="cipher_fourth_button_height_480">70px</dimen>
+    <dimen name="cipher_fourth_button_marginTop_480">120px</dimen>
+    <dimen name="cipher_fourth_button_marginLeft_480">40px</dimen>
+
+    <dimen name="we_date_text_height_480">20px</dimen>
+    <dimen name="we_date_textSize_480">16px</dimen>
+    <dimen name="we_options_height_480">70px</dimen>
+    <dimen name="we_options_textSize_480">35px</dimen>
+    <dimen name="expenditure_money_layout_480">70px</dimen>
+    <dimen name="expenditure_money_marginTop_480">5px</dimen>
+    <dimen name="expenditure_money_text_width_480">160px</dimen>
+    <dimen name="expenditure_money_text_size_480">35px</dimen>
+    <dimen name="expenditure_money_edit_width_480">280px</dimen>
+    <dimen name="expenditure_money_edit_marginLeft_480">40px</dimen>
+    <dimen name="expenditure_date_text_height_480">70px</dimen>
+    <dimen name="expenditure_date_text_marginTop_480">5px</dimen>
+    <dimen name="expenditure_date_textSize_480">35px</dimen>
+    <dimen name="expenditure_edit_beiZhu_height_480">70px</dimen>
+    <dimen name="expenditure_gross_expenditure_height_480">140px</dimen>
+
+</resources>

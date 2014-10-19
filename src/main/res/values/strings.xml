@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">生活</string>
+    <string name="title_activity_life">生活</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cipher">Cipher</string>
+    <string name="title_activity_we">We</string>
+    <string name="expenditure_text">支出</string>
+    <string name="income_text">收入</string>
+    <string name="expenditure_money">金额</string>
+</resources>

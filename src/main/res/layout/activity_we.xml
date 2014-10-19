@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/we_date"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/we_date_text_height_480"
+        android:textColor="#EE0000"
+        android:textSize="@dimen/we_date_textSize_480" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/we_options_height_480"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/expenditure"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/all_button_bg"
+            android:gravity="center"
+            android:text="@string/expenditure_text"
+            android:textSize="@dimen/we_options_textSize_480" />
+
+        <Button
+            android:id="@+id/income"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/all_button_bg"
+            android:gravity="center"
+            android:text="@string/income_text"
+            android:textSize="@dimen/we_options_textSize_480" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/expenditure_money_layout_480"
+        android:layout_marginTop="@dimen/expenditure_money_marginTop_480"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/expenditure_money_text_width_480"
+            android:layout_height="match_parent"
+            android:background="#ff92ccca"
+            android:gravity="center"
+            android:text="@string/expenditure_money"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/expenditure_money_text_size_480" />
+
+        <EditText
+            android:id="@+id/money"
+            android:layout_width="@dimen/expenditure_money_edit_width_480"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/expenditure_money_edit_marginLeft_480"
+            android:background="#ff92ccca"
+            android:digits="1234567890."
+            android:gravity="center_vertical|right"
+            android:hint="在此输入数额"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/expenditure_money_text_size_480" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/expenditure_date_text_height_480"
+        android:layout_marginTop="@dimen/expenditure_date_text_marginTop_480"
+        android:background="#ff92ccca"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/expenditure_date_textSize_480" />
+
+    <EditText
+        android:id="@+id/remarks"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/expenditure_edit_beiZhu_height_480"
+        android:layout_marginTop="@dimen/expenditure_date_text_marginTop_480"
+        android:background="#ff92ccca"
+        android:hint="备注"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/expenditure_money_text_size_480" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/expenditure_edit_beiZhu_height_480"
+        android:layout_marginTop="@dimen/expenditure_date_text_marginTop_480"
+        android:background="@drawable/all_button_bg"
+        android:gravity="center"
+        android:text="提交"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/expenditure_money_text_size_480" />
+
+    <TextView
+        android:id="@+id/gross_expenditure"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/expenditure_gross_expenditure_height_480"
+        android:layout_marginTop="@dimen/expenditure_date_text_marginTop_480"
+        android:background="@drawable/all_button_bg"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/expenditure_money_text_size_480" />
+
+</LinearLayout>

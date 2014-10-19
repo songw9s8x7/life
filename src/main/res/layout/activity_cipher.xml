@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_bg">
+
+    <TextView
+        android:id="@+id/cipher_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cipher_first_text_height_480"
+        android:layout_marginTop="@dimen/cipher_first_text_marginTop_480"
+        android:gravity="center"
+        android:textColor="#A0522D"
+        android:password="true"
+        android:textSize="@dimen/cipher_first_textSize_480" />
+
+    <Button
+        android:id="@+id/cipher_first_button"
+        android:layout_width="@dimen/cipher_first_button_width_480"
+        android:layout_height="@dimen/cipher_first_button_height_480"
+        android:layout_marginLeft="@dimen/cipher_first_button_marginLeft_480"
+        android:layout_marginTop="@dimen/cipher_first_button_marginTop_480"
+        android:background="@drawable/cipher_button" />
+
+    <Button
+        android:id="@+id/cipher_second_button"
+        android:layout_width="@dimen/cipher_second_button_width_480"
+        android:layout_height="@dimen/cipher_second_button_height_480"
+        android:layout_marginLeft="@dimen/cipher_second_button_marginLeft_480"
+        android:layout_marginTop="@dimen/cipher_second_button_marginTop_480"
+        android:layout_toRightOf="@id/cipher_first_button"
+        android:background="@drawable/cipher_button" />
+
+    <Button
+        android:id="@+id/cipher_third_button"
+        android:layout_width="@dimen/cipher_third_button_width_480"
+        android:layout_height="@dimen/cipher_third_button_height_480"
+        android:layout_marginLeft="@dimen/cipher_third_button_marginLeft_480"
+        android:layout_marginTop="@dimen/cipher_third_button_marginTop_480"
+        android:layout_toRightOf="@id/cipher_second_button"
+        android:background="@drawable/cipher_button" />
+
+    <Button
+        android:id="@+id/cipher_fourth_button"
+        android:layout_width="@dimen/cipher_fourth_button_width_480"
+        android:layout_height="@dimen/cipher_fourth_button_height_480"
+        android:layout_marginLeft="@dimen/cipher_fourth_button_marginLeft_480"
+        android:layout_marginTop="@dimen/cipher_fourth_button_marginTop_480"
+        android:layout_toRightOf="@id/cipher_third_button"
+        android:background="@drawable/cipher_button" />
+</RelativeLayout>

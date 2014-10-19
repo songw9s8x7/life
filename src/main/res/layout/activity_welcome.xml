@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/welcome_first_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/welcome_first_line_height_480"
+        android:layout_marginLeft="@dimen/welcome_first_line_marginLeft_480"
+        android:layout_marginTop="@dimen/welcome_first_line_marginTop_480"
+        android:textSize="@dimen/welcome_first_line_textSize_480" />
+
+    <TextView
+        android:id="@+id/welcome_second_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/welcome_second_line_height_480"
+        android:layout_marginLeft="@dimen/welcome_second_line_marginLeft_480"
+        android:layout_marginTop="@dimen/welcome_second_line_marginTop_480"
+        android:textSize="@dimen/welcome_second_line_textSize_480" />
+
+    <TextView
+        android:id="@+id/welcome_third_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/welcome_third_line_height_480"
+        android:layout_marginLeft="@dimen/welcome_third_line_marginLeft_480"
+        android:layout_marginTop="@dimen/welcome_third_line_marginTop_480"
+        android:textSize="@dimen/welcome_third_line_textSize_480" />
+</LinearLayout>
